@@ -31,6 +31,12 @@ python app.py
 # Opens at http://localhost:7860
 ```
 
+### Streamlit Demo
+```bash
+streamlit run streamlit_app.py
+# Opens at http://localhost:8501
+```
+
 ## Project Structure
 
 ```
@@ -38,6 +44,7 @@ python app.py
 ├── WRITEUP.md                # Technical write-up
 ├── predict.py                # CLI inference script
 ├── app.py                    # Gradio interactive demo
+├── streamlit_app.py          # Streamlit interactive demo
 ├── Dockerfile                # Container deployment
 ├── requirements.txt          # Python dependencies
 ├── src/
