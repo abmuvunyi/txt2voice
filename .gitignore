@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+venv/
+env/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Project-specific
+data/
+models/
+output_samples/
+logs/
+results/
+*.log
+
+# Credentials
+auth_hf.py
+
+# Dev scripts (not needed in submission)
+consolidate_notebook.py
+reorganize_notebook.py
+dry_run_training.py
+update_inference.py
+update_training_final.py
+
+# Test PDF (confidential)
+Technical_test.pdf
